@@ -7,7 +7,7 @@ import { sendToVercelAnalytics } from './vitals';
 //test
 //test2
 ReactDOM.render(<App/>,document.getElementById('root'));
-//ReactDOM.render(<div>content1</div>,document.getElementById('content'));
+ReactDOM.render(<div>content1</div>,document.getElementById('content'));
 
 
 const navbar = (

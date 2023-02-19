@@ -12,4 +12,11 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+ReactDOM.render(
+  <React.StrictMode>
+    <p>test paragraph</p>
+  </React.StrictMode>,
+  document.getElementById('content')
+);
+
 reportWebVitals(sendToVercelAnalytics);

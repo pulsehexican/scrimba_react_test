@@ -9,7 +9,7 @@ function Formular() {
     return (
       <div className="Formular">
           <p>
-            Test <a>http://go.HEX.com</a> and stake 5555 !!!
+            Test <a>http://go.hex.com</a> and stake 5555 !!!
           </p>
       </div>
     );

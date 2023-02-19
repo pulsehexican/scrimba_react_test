@@ -2,14 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ETHBalance from './ETHBalance';
 import reportWebVitals from './reportWebVitals';
 import { sendToVercelAnalytics } from './vitals';
+import { useState } from 'react';
+import Web3 from 'web3';
 
 function Formular() {
     return (
       <div className="Formular">
           <p>
-            Test <a>http://go.hex.com</a> and stake 5555 !!!
+            Test <code>http://go.hex.com</code> and stake 5555 !!!
           </p>
       </div>
     );
@@ -38,6 +41,7 @@ var testing = Formular();
 
 //const content = ReactDOM.createRoot(document.getElementById("content"));
 //content.render(navbar)
+ReactDOM.render(<ETHBalance/>,document.getElementById('content'));
 
 const footer = ReactDOM.createRoot(document.getElementById("footer"));
 footer.render(testing)

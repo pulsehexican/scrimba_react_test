@@ -22,4 +22,15 @@ function App() {
   );
 }
 
+
+function Formular() {
+  return (
+    <div className="Formular">
+        <p>
+          Test <code>http://go.HEX.com</code> and stake 5555 !!!
+        </p>
+    </div>
+  );
+}
+
 export default App;

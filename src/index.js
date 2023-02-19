@@ -32,13 +32,15 @@ const navbar2 = (
     </nav>
 )
 
+var testing = App.Formular();
+
 // ReactDOM.render(navbar, document.getElementById("root"))
 //ReactDOM.createRoot(document.getElementById("content")).render(navbar)
 
 const content = ReactDOM.createRoot(document.getElementById("content"));
-content.render(navbar2)
+content.render(navbar)
 
 const footer = ReactDOM.createRoot(document.getElementById("footer"));
-footer.render(navbar2)
+footer.render(App.Formular())
 
 reportWebVitals(sendToVercelAnalytics);

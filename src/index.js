@@ -9,7 +9,7 @@ function Formular() {
     return (
       <div className="Formular">
           <p>
-            Test <code>http://go.HEX.com</code> and stake 5555 !!!
+            Test <a>http://go.HEX.com</a> and stake 5555 !!!
           </p>
       </div>
     );
@@ -36,8 +36,8 @@ var testing = Formular();
 // ReactDOM.render(navbar, document.getElementById("root"))
 //ReactDOM.createRoot(document.getElementById("content")).render(navbar)
 
-const content = ReactDOM.createRoot(document.getElementById("content"));
-content.render(navbar)
+//const content = ReactDOM.createRoot(document.getElementById("content"));
+//content.render(navbar)
 
 const footer = ReactDOM.createRoot(document.getElementById("footer"));
 footer.render(testing)

@@ -7,7 +7,7 @@ import { sendToVercelAnalytics } from './vitals';
 //test
 //test2
 ReactDOM.render(<App/>,document.getElementById('root'));
-ReactDOM.render(<div>content1</div>,document.getElementById('content'));
+//ReactDOM.render(<div>content1</div>,document.getElementById('content'));
 
 
 const navbar = (
@@ -21,8 +21,24 @@ const navbar = (
     </nav>
 )
 
-// ReactDOM.render(navbar, document.getElementById("root"))
-ReactDOM.createRoot(document.getElementById("content")).render(navbar)
+const navbar2 = (
+    <nav>
+        <h1>Bob's Bistro2</h1>
+        <ul>
+            <li>Menu2</li>
+            <li>About2</li>
+            <li>Contact2</li>
+        </ul>
+    </nav>
+)
 
+// ReactDOM.render(navbar, document.getElementById("root"))
+//ReactDOM.createRoot(document.getElementById("content")).render(navbar)
+
+const content = ReactDOM.createRoot(document.getElementById("content"));
+content.render(navbar2)
+
+const footer = ReactDOM.createRoot(document.getElementById("footer"));
+footer.render(navbar2)
 
 reportWebVitals(sendToVercelAnalytics);

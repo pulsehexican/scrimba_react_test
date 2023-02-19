@@ -11,11 +11,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-ReactDOM.render(
-    <p>test paragraph</p>
-,
-  document.getElementById('content')
-);
-
+ReactDOM.render(<p>test paragraph</p>,document.getElementById('content'));
 reportWebVitals(sendToVercelAnalytics);

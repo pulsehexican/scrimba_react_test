@@ -6,7 +6,7 @@ import ETHBalance from './ETHBalance';
 import reportWebVitals from './reportWebVitals';
 import { sendToVercelAnalytics } from './vitals';
 import { useState } from 'react';
-import Web3 from 'web3';
+#import Web3 from 'web3';
 
 function Formular() {
     return (
@@ -41,7 +41,7 @@ var testing = Formular();
 
 //const content = ReactDOM.createRoot(document.getElementById("content"));
 //content.render(navbar)
-ReactDOM.render(<ETHBalance/>,document.getElementById('content'));
+//ReactDOM.render(<ETHBalance/>,document.getElementById('content'));
 
 const footer = ReactDOM.createRoot(document.getElementById("footer"));
 footer.render(testing)

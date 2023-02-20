@@ -41,7 +41,7 @@ var testing = Formular();
 
 //const content = ReactDOM.createRoot(document.getElementById("content"));
 //content.render(navbar)
-//ReactDOM.render(<ETHBalance/>,document.getElementById('content'));
+ReactDOM.render(<ETHBalance/>,document.getElementById('content'));
 
 const footer = ReactDOM.createRoot(document.getElementById("footer"));
 footer.render(testing)

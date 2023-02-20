@@ -1,4 +1,6 @@
 
+import { useState } from 'react';
+import Web3 from 'web3';
 
 function ETHBalance() {
   const [ethAddress, setEthAddress] = useState('');
